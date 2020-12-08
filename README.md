@@ -30,6 +30,6 @@ npm run cypress
 
 - stage
 
-# Result of tests execution:
+## Result of tests execution:
  ![Image text](screenshots/tests-08122020.png)
 
