@@ -1,0 +1,17 @@
+{
+    "name": "qa-automation-test-cypress.io",
+    "version": "1.0.0",
+    "repository": "https://github.com/yuriidrapak/QAAutomationTestCypress",
+    "author": "Yurii Drapak",
+    "license": "MIT",
+    "scripts": {
+        "cy:info": "cypress info",
+        "cy:run": "cypress run",
+        "cy:verify": "cypress verify",
+        "cy:version": "cypress version",
+        "cypress": "cypress open"
+    },
+    "devDependencies": {
+        "cypress": "^6.1.0"
+    }
+}

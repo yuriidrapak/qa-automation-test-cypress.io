@@ -1,0 +1,14 @@
+{
+    "chromeWebSecurity": false,
+    "restartBrowserBetweenSpecFiles": true,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "retries": {
+        "runMode": 2,
+        "openMode": 1
+    },
+    "video": false,
+    "numTestsKeptInMemory": 0,
+    "defaultCommandTimeout": 15000,
+    "pageLoadTimeout": 60000
+}
