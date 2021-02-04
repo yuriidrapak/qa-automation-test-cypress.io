@@ -6,9 +6,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 
 
-import * as homePage from '../locators/home-page.locators';
-import * as bundlesPage from '../locators/bundles-page.locators';
-import * as profilePage from '../locators/profile-page.locators';
+import * as homePage from '../page-objects/home-page.pages';
+import * as bundlesPage from '../page-objects/bundles-page.pages';
+import * as profilePage from '../page-objects/profile-page.pages';
 
 describe('3.My profile page. Client area', () => {
     it('After click on "Profile" opened page "Profile" should be displayed', () => {
@@ -58,7 +58,7 @@ describe('3.My profile page. Client area', () => {
 
         it('Support pin', () => {
             cy.get(profilePage.valueName).eq(5).contains('Support pin')
-            cy.get(profilePage.valueSaved).eq(5).contains('UC1v')
+            cy.get(profilePage.valueSaved).eq(5).contains('DeD3')
         })
 
         it('Newsletter', () => {

@@ -1,5 +1,5 @@
 {
-    "name": "qa-automation-test-cypress.io",
+    "name": "qa-automation-test-cypress",
     "version": "1.0.0",
     "repository": "https://github.com/yuriidrapak/QAAutomationTestCypress",
     "author": "Yurii Drapak",
@@ -12,6 +12,6 @@
         "cypress": "cypress open"
     },
     "devDependencies": {
-        "cypress": "^6.1.0"
+        "cypress": "^6.4.0"
     }
 }

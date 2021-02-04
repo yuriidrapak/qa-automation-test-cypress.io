@@ -5,9 +5,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 
-import * as homePage from '../locators/home-page.locators';
-import * as authorizationPage from '../locators/authorization-page.locators';
-import * as bundlesPage from '../locators/bundles-page.locators';
+import * as homePage from '../page-objects/home-page.pages';
+import * as authorizationPage from '../page-objects/authorization-page.pages';
+import * as bundlesPage from '../page-objects/bundles-page.pages';
 
 
 describe('2.Authorization page (Welcome back!)', () => {
@@ -29,7 +29,7 @@ describe('2.Authorization page (Welcome back!)', () => {
         cy.get(homePage.loginButton).contains('Log in').should('be.visible')
 
         //Checking headings
-        cy.get(homePage.pageHeading).contains('Get up to 56% off on SSL').should('be.visible')
+        cy.get(homePage.pageHeading).contains('Get up to 68% off on SSL').should('be.visible')
         cy.get(homePage.pageHeading).contains('Save & win').should('be.visible')
         cy.get(homePage.pageHeading).contains('SSL certificate benefits').should('be.visible')
         cy.get(homePage.pageHeading).contains('Compare validation types').should('be.visible')
