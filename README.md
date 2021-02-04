@@ -28,4 +28,8 @@ npm run cypress
 
 ## Branches:
 
--
+- stage
+
+## Result of tests execution:
+ ![Image text](screenshots/tests-08122020.png)
+
